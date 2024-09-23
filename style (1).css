@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+}
+
+.TopBox {
+
+
+    width: 430px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
+.BottomBox {
+
+
+    width: 430px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    background-color: pink;
+    background: url(./HollowKnightPerfil.jpeg) no-repeat center;
+
+
+    margin-left: 50px;
+}
+
+.textTop {
+    display: flex;
+    flex-direction: column;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slot1 {
+    width: 252px;
+    height: 271px;
+    border-radius: 35px;
+    background-color: darkgray;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slot2 {
+    width: 252px;
+    height: 271px;
+    border-radius: 35px;
+    background-color: darkgray;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.slot3 {
+    width: 252px;
+    height: 271px;
+    border-radius: 35px;
+    background-color: darkgray;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.bottomSlot1 {
+    width: 252px;
+    height: 75px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bottomSlot2 {
+    width: 252px;
+    height: 75px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomSlot3 {
+    width: 252px;
+    height: 75px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aviao1 {
+    width: 50px;
+    height: 200px ;
+    margin: 10px;
+}
+.aviao2 {
+    width: 200px;
+    height: 200px ;
+    margin: 10px;
+}
+.aviao3 {
+    width: 200px;
+    height: 200px ;
+    margin: 10px;
+}
+
+.font {
+    font-family: Playpen Sans;
+}
+
+@media (max-width:550px) {
+    .TopBox{
+        width: 1920px;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .BottomBox{
+        width: 1920px;
+        height: 475px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .circle{
+        margin-right: 50px;
+    }
+    .textTop{
+        display: flex;
+        flex-direction: column;
+    }
+}
